@@ -1,0 +1,126 @@
+.header div {
+    border: 0px;
+}
+
+.logo {
+    float: left;
+    margin-top:12px;
+    margin-right:8%;
+}
+.menuItem {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color:#575b5f;
+    float:left;
+    margin-top: 0px;
+    margin-right: 13px;
+    padding: 20px 25px 20px 25px;
+}
+
+.menuItem::after {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+
+.topMenu {
+    height: 60px;
+    padding-left: 20px;
+}
+
+.downArrow {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 2px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-left: 8px;
+    margin-bottom: 4px;
+}
+
+
+.settingArea{
+    display: inline-block;
+    border:0px;
+    margin-left: 9%;
+
+}
+
+.settingArea div {
+    display: inline-block;
+    float: left;
+    margin: 0 15px 3px 15px;
+    padding: 20px 0 20px 0;
+}
+
+.settingArea div i {
+    font-family:themify;
+    font-style: normal;
+    font-size: 18px;
+    color: #999;
+}
+
+.search {
+
+
+}
+
+.searchIcon:before {
+    content: "\e610";
+}
+
+.homeIcon:before {
+    content: "\e69b";
+}
+
+.notificationIcon:before {
+    content: "\e6b8";
+}
+
+.messageIcon:before {
+    content: "\e644";
+}
+
+.languageIcon:before {
+    font: normal normal normal 18px/1 FontAwesome;
+    content: "\f0ac";
+}
+
+.userImage {
+    display: inline-block;
+    position: relative;
+    top: -13px;
+    margin-left: 5%;
+}
+
+.userImage img {
+
+    width: 45px;
+    height: 45px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+
+.burgerMenu {
+    display: inline-block;
+    font-family:themify;
+
+    font-size: 20px;
+    color: #545454;
+
+    float: right;
+    margin-right: 20px;
+    margin-top: 18px;
+}
+
+.burgerMenuIcon:before {
+    content: "\e68e";
+    font-style: normal;
+    font-weight: 500;
+}

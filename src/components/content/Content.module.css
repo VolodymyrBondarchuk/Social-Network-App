@@ -1,0 +1,43 @@
+.content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.lefColumn {
+    width: 20%;
+    float: left;
+}
+
+.feed {
+    width: 60%;
+    float: left;
+}
+
+.rightColumn {
+    width: 19%;
+    float: right;
+}
+
+.contentMenu, .contentMenu div {
+    display: inline-block;
+}
+
+.userName {
+
+}
+
+.userRole {
+
+}
+
+.contentMenuItem {
+
+}
+
+.socialContainer {
+
+}
+
+.shortcutsContainer {
+
+}
