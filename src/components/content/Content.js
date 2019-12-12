@@ -8,7 +8,7 @@ import avatar5 from './../../images/friends/friend-avatar5.jpg';
 import avatar6 from './../../images/friends/friend-avatar6.jpg';
 import avatar7 from './../../images/friends/friend-avatar7.jpg';
 import avatar8 from './../../images/friends/friend-avatar8.jpg';
-import Friend from './friends/Friend.js';
+import Friend from './Friend/Friend.js';
 import ShortcutItem from './ShortcutItem/ShortcutItem.js';
 
 function Content() {
