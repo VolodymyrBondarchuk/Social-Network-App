@@ -1,3 +1,8 @@
+.header {
+    height: 410px;
+    background: white;
+}
+
 .header div {
     border: 0px;
 }
@@ -7,23 +12,6 @@
     margin-top:12px;
     margin-right:8%;
 }
-.menuItem {
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 500;
-    color:#575b5f;
-    float:left;
-    margin-top: 0px;
-    margin-right: 13px;
-    padding: 20px 25px 20px 25px;
-}
-
-.menuItem::after {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-}
 
 
 .topMenu {
@@ -31,16 +19,7 @@
     padding-left: 20px;
 }
 
-.downArrow {
-    border: solid black;
-    border-width: 0 1px 1px 0;
-    display: inline-block;
-    padding: 2px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    margin-left: 8px;
-    margin-bottom: 4px;
-}
+
 
 
 .settingArea{
@@ -55,6 +34,7 @@
     float: left;
     margin: 0 15px 3px 15px;
     padding: 20px 0 20px 0;
+    cursor: pointer;
 }
 
 .settingArea div i {
@@ -123,4 +103,16 @@
     content: "\e68e";
     font-style: normal;
     font-weight: 500;
+}
+
+.profileImg {
+    display: inline-block;
+    position: relative;
+    top: -135px;
+    left: 70px;
+}
+
+.userAvatar {
+    border-radius: 100%;
+    border: 5px solid white;
 }

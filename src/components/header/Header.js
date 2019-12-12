@@ -4,23 +4,24 @@ import backProfileImg from "../../images/timeline-1.jpg";
 import userAvatar from "../../images/user-avatar.jpg";
 import React from "react";
 import s from './Header.module.css';
+import TopMenuItem from './TopMenuItem/TopMenuItem.js';
+import SettingItem from './SettingItem/SettingItem.js';
 
 function Header() {
     return <div className={s.header}>
         <div className={s.topMenu}>
             <img src={logo} className={s.logo} />
-            <div className={s.menuItem}>Home<i className={s.downArrow}/></div>
-            <div className={s.menuItem}>Timeline<i className={s.downArrow}/></div>
-            <div className={s.menuItem}>Account Settings<i className={s.downArrow}/></div>
-            <div className={s.menuItem}>More pages<i className={s.downArrow}/></div>
+            <TopMenuItem title='Home'/>
+            <TopMenuItem title='Timeline'/>
+            <TopMenuItem title='Account Settings'/>
+            <TopMenuItem title='More Pages'/>
 
             <div className={s.settingArea}>
-                <div className={s.search}><i className={s.searchIcon}/></div>
-                <div className='notofocation'><i className={s.homeIcon}/></div>
-                <div className='notofocation'><i className={s.notificationIcon}/></div>
-                <div className='messages'><i className={s.messageIcon}/></div>
-                <div className='languages'><i className={s.languageIcon}/></div>
-
+                <SettingItem styleName={s.searchIcon}/>
+                <SettingItem styleName={s.homeIcon}/>
+                <SettingItem styleName={s.notificationIcon}/>
+                <SettingItem styleName={s.messageIcon}/>
+                <SettingItem styleName={s.languageIcon}/>
             </div>
 
             <div className={s.userImage}>
@@ -33,8 +34,8 @@ function Header() {
         <div className='profileBackImg'>
             <img src={backProfileImg} />
         </div>
-        <div className='profileImg'>
-            <img src={userAvatar}/>
+        <div className={s.profileImg}>
+            <img src={userAvatar} className={s.userAvatar}/>
         </div>
     </div>
 }
